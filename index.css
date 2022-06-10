@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+@import url('http://fonts.cdnfonts.com/css/mortal-kombat');
+
+body {
+  background-color: black;
+}
+.progress {
+  position: relative;
+  height: 35px;
+  width: 90%;
+  border: 5px solid #9a8a2b;
+  border-radius: 1px;
+  background-color: #0000e0;
+}
+
+.progress .color {
+  position: absolute;
+  background-color: #ab251a;
+  width: 0px;
+  height: 35px;
+  border-radius: 1px;
+  animation: progress 4s infinite linear;
+}
+
+@keyframes progress {
+  0% {
+    width: 0%;
+  }
+  25% {
+    width: 50%;
+  }
+  50% {
+    width: 75%;
+  }
+  75% {
+    width: 85%;
+  }
+  85% {
+    width: 100%;
+  }
+}
+
+
+.name {
+  margin: 1px 6px;
+  font-weight: 900;
+  font-size: 30px;
+  font-style: italic;
+  color: #e0e0e0;
+}
+
+.wins {
+  font-family: 'Mortal Kombat', sans-serif;
+  color: #e0e0e0;
+  margin: 0px 4px;
+  padding: 1px;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.energy-bar {
+  position: relative;
+  height: 5px;
+  width: 100px;
+  margin-top: 1px;
+  border: 2px solid #8d8e8a;
+  border-radius: 1px;
+  background-color: #49c62b;
+}
+
+.ponto {
+  width: 30px;
+  height: 30px;
+  background-color: #dbba0e;
+  border-radius: 50%;
+  margin-left: 35px;
+}
+
+.ponto2 {
+  width: 30px;
+  height: 30px;
+  background-color: #dbba0e;
+  border-radius: 50%;
+  margin-top: -30px;
+}
